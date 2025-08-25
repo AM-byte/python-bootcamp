@@ -10,6 +10,7 @@ A simple Python CLI app to fetch current weather data using the OpenWeather API.
   -  Weather description
 
 ## Setup Instructions
+
 1. Clone the repo:
   ```bash
   git clone https://github.com/yourusername/weather-cli.git
@@ -22,6 +23,7 @@ A simple Python CLI app to fetch current weather data using the OpenWeather API.
   python weather-app.py <city>
 
 ## Example Output
+
 ========================================
  Weather Report for New York
 ========================================
