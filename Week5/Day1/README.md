@@ -20,13 +20,3 @@ A simple Python CLI app to fetch current weather data using the OpenWeather API.
 
 3. Run the app
   python weather-app.py <city>
-
-## Example Output
-
-========================================
- Weather Report for New York
-========================================
- Temperature: 22.67 °C
- Humidity: 83%
- Description: few clouds
-========================================
