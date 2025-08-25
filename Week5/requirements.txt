@@ -1,0 +1,11 @@
+streamlit
+requests
+pandas
+python-dotenv
+transformers
+torch
+numpy
+dotenv
+os
+sys
+altair
