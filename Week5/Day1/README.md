@@ -12,9 +12,8 @@ A simple Python CLI app to fetch current weather data using the OpenWeather API.
 ## Setup Instructions
 
 1. Clone the repo:
-  ```bash
-    git clone https://github.com/yourusername/weather-cli.git
-    cd weather-cli
+  git clone https://github.com/yourusername/weather-cli.git
+  cd weather-cli
 
 2. Create a .env file and add your API key:
   OPENWEATHER_API_KEY=your_api_key_here
