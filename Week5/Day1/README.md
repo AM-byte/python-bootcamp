@@ -18,9 +18,11 @@ A simple Python CLI app to fetch current weather data using the OpenWeather API.
   ```
 
 2. Create a .env file and add your API key:
-
+  ```bash
   OPENWEATHER_API_KEY=your_api_key_here
+  ```
 
 3. Run the app
-
+  ```bash
   python weather-app.py <city>
+  ```
