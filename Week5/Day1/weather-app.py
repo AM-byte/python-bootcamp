@@ -41,7 +41,7 @@ def get_weather(city):
 
 if __name__ == "__main__":
   if len(sys.argv) < 2:
-    print("Usage: python weather.py <city>")
+    print("Usage: python weather-app.py <city>")
   else:
     city = " ".join(sys.argv[1:])
     get_weather(city)
