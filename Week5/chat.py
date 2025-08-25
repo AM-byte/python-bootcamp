@@ -7,10 +7,8 @@ load_dotenv()
 
 # Initialize the OpenAI client
 client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")  # Pull the API key from environment variables
+    api_key=os.getenv("OPENAI_API_KEY_2")  # Pull the API key from environment variables
 )
-
-print(client.api_key)
 
 # Call the Chat Completion endpoint
 response = client.chat.completions.create(
