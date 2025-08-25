@@ -2,7 +2,6 @@ import requests
 from dotenv import load_dotenv
 import os
 import sys
-import re
 
 load_dotenv()
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
@@ -31,15 +30,13 @@ def get_weather(city):
   temp = data["main"]["temp"]
   humidity = data["main"]["humidity"]
   description = data["weather"][0]["description"]
-
-  description = re.sub(r'^\w', lambda m: m.group(0).upper(), description)
   
   print("="*40)
   print(f" Weather Report for {city_name}")
   print("="*40)
   print(f" Temperature: {temp} °C")
   print(f" Humidity: {humidity}%")
-  print(f" Condition: {description}")
+  print(f" Description: {description}")
   print("="*40)
 
 if __name__ == "__main__":
